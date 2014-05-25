@@ -26,4 +26,4 @@ while [ $counter -lt $length ]; do
 done
 
 echo $passwordString
-echo $passwordString | `$copy_to_clipboard_command`
+echo $passwordString | $copy_to_clipboard_command
