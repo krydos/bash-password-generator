@@ -10,7 +10,7 @@ passwordString=""
 length=$1
 
 #command for copy password to the clipboard
-copy_to_clipboard_command="xclip"
+copy_to_clipboard_command="xclip -selection clipboard"
 uname=`uname`
 
 if [[ "$uname" == "Darwin" ]]; then
