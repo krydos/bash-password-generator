@@ -1,7 +1,12 @@
 BASH Password Generator
 =======================
 
-A little bash script for password generation.
+A little bash script for password generation and automatically copy it to the clipboard.
+
+Dependencies
+------------
+* xclip (Linux)
+* pbcopy (MacOS)
 
 Usage
 -----
