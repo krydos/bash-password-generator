@@ -22,7 +22,6 @@ if [[ "$uname" == "Darwin" ]]; then
     copy_to_clipboard_command="pbcopy"
 fi
 
-
 #counter for loop
 counter=0
 while [ $counter -lt $length ]; do
