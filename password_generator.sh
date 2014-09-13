@@ -9,6 +9,11 @@ passwordString=""
 #length of the password
 length=$1
 
+if [ -z $length ]; then
+    echo "Please set the length of passwrod"
+    exit
+fi
+
 #command for copy password to the clipboard
 copy_to_clipboard_command="xclip -selection clipboard"
 uname=`uname`
